@@ -13,7 +13,7 @@ mongoose.connect(process.env.ATLAS_URI)
 app.use(cors(
     {
         credentials: true,
-        origin: 'http://localhost:3000'
+        origin: '*'
     }
 ));
 
